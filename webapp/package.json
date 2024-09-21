@@ -1,0 +1,40 @@
+{
+  "name": "nukleus-webapp",
+  "version": "2.14.2",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier src --write"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "6.4.2",
+    "@fortawesome/pro-light-svg-icons": "6.4.2",
+    "@fortawesome/vue-fontawesome": "3.0.3",
+    "@mdi/font": "7.0.96",
+    "@mindcraftgmbh/nukleus-vueui": "2.35.3",
+    "@stripe/stripe-js": "1.11.0",
+    "core-js": "^3.29.0",
+    "iso-3166-1": "^2.1.1",
+    "lodash": "4.17.20",
+    "moment": "2.24.0",
+    "monaco-editor-vue3": "^0.1.10",
+    "vue": "3.3.4",
+    "vue-router": "4.2.4",
+    "vuetify": "3.3.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.3.3",
+    "eslint": "8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "9.17.0",
+    "eslint-plugin-vuetify": "2.0.5",
+    "prettier": "^3.0.2",
+    "sass": "1.66.1",
+    "vite": "4.4.9",
+    "vite-plugin-node-polyfills": "^0.11.3",
+    "vite-plugin-vuetify": "1.0.2"
+  }
+}

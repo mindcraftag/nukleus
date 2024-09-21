@@ -1,0 +1,63 @@
+{
+  "name": "@mindcraftgmbh/nukleus-service",
+  "version": "1.77.3",
+  "description": "",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "prepare": "node scripts/prepare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.mndcr.com/nukleus/service.git"
+  },
+  "author": "mindcraft AG <admin@mndcr.com> (https://mndcr.com)",
+  "license": "MIT",
+  "resolutions": {
+    "wrap-ansi": "7.0.0",
+    "string-width": "4.1.0"
+  },
+  "dependencies": {
+    "@hapi/hawk": "7.1.2",
+    "@logdna/logger": "2.1.0",
+    "@mindcraftgmbh/nukleus-model": "1.43.1",
+    "@sinclair/typebox": "^0.32.14",
+    "archiver": "5.3.0",
+    "aws-sdk": "2.585.0",
+    "axios": "0.19.0",
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "bson": "^6.7.0",
+    "defaults": "1.0.3",
+    "express-rate-limit": "6.0.4",
+    "file-type": "12.4.0",
+    "handlebars": "4.7.6",
+    "iso-3166-1": "^2.1.1",
+    "jimp": "0.9.3",
+    "json-sorter": "^2.1.0",
+    "jsonwebtoken": "8.5.1",
+    "mmmagic": "0.5.3",
+    "moment": "2.24.0",
+    "node-xlsx": "0.16.1",
+    "nodemailer": "6.9.12",
+    "pako": "^2.1.0",
+    "redis": "4.5.1",
+    "resend": "3.4.0",
+    "stripe": "8.126.0",
+    "systeminformation": "5.11.0",
+    "unzipper": "0.10.11",
+    "ws": "8.11.0",
+    "xlsx": "0.16.9",
+    "xml2js": "0.4.23"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/shelljs": "^0.8.11",
+    "chai": "^4.3.7",
+    "chai-spies": "^1.0.0",
+    "portscanner": "^2.2.0",
+    "run-rs": "^0.7.7",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.0.4"
+  }
+}

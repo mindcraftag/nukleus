@@ -1,0 +1,59 @@
+{
+  "name": "@mindcraftgmbh/nukleus-vueui",
+  "version": "2.36.0",
+  "author": "mindcraft AG",
+  "files": [
+    "dist",
+    "css"
+  ],
+  "main": "./dist/nukleus-vueui.umd.js",
+  "module": "./dist/nukleus-vueui.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/nukleus-vueui.mjs",
+      "require": "./dist/nukleus-vueui.umd.js"
+    },
+    "./style": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "unpkg": "./dist/nukleus-vueui.umd.js",
+  "jsdelivr": "./dist/nukleus-vueui.umd.js",
+  "scripts": {
+    "build": "vite build",
+    "analyze": "vite build --config analyze.config.js",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier src --write"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.6.2",
+    "@vue/compiler-sfc": "^3.1.5",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "eslint-plugin-vuetify": "^2.0.5",
+    "moment": "2.29.1",
+    "prettier": "^2.3.2",
+    "rollup-plugin-visualizer": "^5.5.2",
+    "vite": "4.5.3",
+    "vite-plugin-vuetify": "2.0.3",
+    "vitepress": "^0.15.6"
+  },
+  "dependencies": {
+    "@mindcraftgmbh/nukleus-client-api": "6.10.0",
+    "ace-builds": "^1.24.1",
+    "axios": "^1.4.0",
+    "chart.js": "^4.4.0",
+    "core-js": "^3.32.1",
+    "is-buffer": "^2.0.5",
+    "vue-chartjs": "^5.2.0",
+    "vue-virtual-scroller": "^2.0.0-beta.8",
+    "vue3-ace-editor": "^2.2.4",
+    "vuetify": "3.6.13",
+    "vuex": "^4.1.0"
+  }
+}

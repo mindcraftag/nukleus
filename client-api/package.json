@@ -1,0 +1,37 @@
+{
+  "name": "@mindcraftgmbh/nukleus-client-api",
+  "version": "6.11.1",
+  "main": "dist/nukleus-client-api.cjs.js",
+  "module": "dist/nukleus-client-api.esm.js",
+  "browser": "dist/nukleus-client-api.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "tsc"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts",
+  "description": "",
+  "author": "Mindcraft AG <admin@mndcr.com> (https://mndcr.com)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.5.1",
+    "isomorphic-ws": "^5.0.0",
+    "jszip": "^3.10.1",
+    "localforage": "1.10.0",
+    "lodash": "4.17.21",
+    "moment": "2.29.1",
+    "pako": "2.1.0",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "typescript": "^5.3.3"
+  }
+}
